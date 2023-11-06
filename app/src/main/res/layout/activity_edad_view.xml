@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".calcularEdad.EdadView">
+
+    <TextView
+        android:id="@+id/tvTituloEdad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvTituloEdad"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvTextoEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/tvTextoEdad" />
+
+    <EditText
+        android:id="@+id/etNacimiento"
+        android:layout_width="329dp"
+        android:layout_height="57dp"
+        android:calendarViewShown="true"
+        android:hint="@string/etNacimiento"
+        android:inputType="date" />
+
+    <TextView
+        android:id="@+id/tvNacimiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/tvNacimiento" />
+
+    <Button
+        android:id="@+id/btnEnviarEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#B52242"
+        android:text="@string/btnEnviarEdad"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvEdadCalculada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

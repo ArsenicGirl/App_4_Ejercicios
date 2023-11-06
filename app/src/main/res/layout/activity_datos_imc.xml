@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".calcularIMC.DatosIMC">
+
+    <TextView
+        android:id="@+id/tvTituloIMC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvTituloIMC"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvIMCText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        android:text="@string/tvIMCText" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="356dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="187dp"
+            android:layout_height="357dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvSistemaIngles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tvSistemaIngles"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/tvEstatura1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="18dp"
+                android:text="@string/tvEstatura1" />
+
+            <TextView
+                android:id="@+id/tvEstaturaDesc1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#B5B5B5"
+                android:textSize="16dp"
+                android:text="@string/tvEstaturaDesc1" />
+
+            <EditText
+                android:id="@+id/etEstatura1"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:ems="10"
+                android:hint="@string/etEstatura1"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/tvPeso1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="18dp"
+                android:text="@string/tvPeso1" />
+
+            <TextView
+                android:id="@+id/tvPesoDesc1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#B5B5B5"
+                android:textSize="16dp"
+                android:text="@string/tvPesoDesc1" />
+
+            <EditText
+                android:id="@+id/etPeso1"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:ems="10"
+                android:hint="@string/etPeso1"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/tvResultadoIng"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="194dp"
+            android:layout_height="357dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvSistemaMetrico"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tvSistemaMetrico"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/tvEstatura2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="18dp"
+                android:text="@string/tvEstatura2" />
+
+            <TextView
+                android:id="@+id/tvEstaturaDesc2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#B5B5B5"
+                android:textSize="16dp"
+                android:text="@string/tvEstaturaDesc2" />
+
+            <EditText
+                android:id="@+id/etEstatura2"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:ems="10"
+                android:hint="@string/etEstatura2"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/tvPeso2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="18dp"
+                android:text="@string/tvPeso2" />
+
+            <TextView
+                android:id="@+id/tvPesoDesc2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#B5B5B5"
+                android:textSize="16dp"
+                android:text="@string/tvEstaturaDesc2" />
+
+            <EditText
+                android:id="@+id/etPeso2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:hint="@string/etPeso2"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/tvResultadoMet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnCalcularIMC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#B52242"
+        android:textSize="20dp"
+        android:text="@string/btnCalcularIMC" />
+</LinearLayout>

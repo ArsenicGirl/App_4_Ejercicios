@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".compra.DatosCliente">
+
+    <TextView
+        android:id="@+id/tvTituloC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvTituloC"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvTextoCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvTextoCliente"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+         android:layout_marginBottom="26dp"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/etNombreCliente"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="@string/etNombreCliente"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/tvNombreCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvNombreCliente"
+        android:layout_marginLeft="60dp"
+        android:textSize="18dp"
+        android:layout_marginBottom="24dp"/>
+
+    <EditText
+        android:id="@+id/etApellidoCliente"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="@string/etApellidoCliente"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/tvApellidoCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:textSize="18dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/tvApellidoCliente" />
+
+    <EditText
+        android:id="@+id/etDireccion"
+        android:layout_width="247dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="@string/etDireccion"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/tvDireccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:textSize="18dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/tvDireccion" />
+
+    <Button
+        android:id="@+id/btnDatosCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:backgroundTint="@color/fucsia"
+        android:text="@string/btnDatosCliente" />
+
+</LinearLayout>

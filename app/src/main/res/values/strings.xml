@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">AppMultiTarea</string>
+
+    //MAIN
+    <string name="tvBienvenida">¡Bienvenido a la App Multitarea!</string>
+    <string name="tvText1">¿Que actividad desea realizar?</string>
+    <string name="btnCE">Calcular mi edad</string>
+    <string name="btnCompra">Realizar una compra</string>
+    <string name="btnTest">Realizar un Test</string>
+    <string name="btnIMC">Calcular mi indice de masa corporal</string>
+
+    //CALCULAR EDAD
+    //**EdadView**
+    <string name="tvTituloEdad">Bienvenido a la calculadora de edad</string>
+    <string name="tvTextoEdad">Por favor, ingrese los datos requeridos</string>
+    <string name="etNacimiento">DD/MM/YYYY</string>
+    <string name="tvNacimiento">Año de nacimiento</string>s
+    <string name="etActual">DD/MM/YYYY</string>
+    <string name="tvActual">Año actual</string>
+    <string name="btnEnviarEdad">Calcular</string>
+    <string name="tvEdadCalculada"></string>
+
+    //**EdadResultado**
+    <string name="tvResultadoEdad"></string>
+    <string name="btnTerminar1">Terminar</string>
+
+    //COMPRA
+    //**Datos Cliente**
+    <string name="tvTituloC">Bienvenido a la tienda ✨Heart´s Gift✨</string>
+    <string name="tvTextoCliente">Por favor, ingrese los datos requeridos</string>
+    <string name="etNombreCliente">Nombre..</string>
+    <string name="tvNombreCliente">Nombre</string>
+    <string name="etApellidoCliente">Apellido..</string>
+    <string name="tvApellidoCliente">Apellido</string>
+    <string name="etDireccion">Dirección..</string>
+    <string name="tvDireccion">Dirección</string>
+    <string name="btnDatosCliente">Registrarme</string>
+
+    //**Productos**
+    <string name="tvNombreCompra">Heart´s Gift</string>
+    <string name="tvTextoProducto">Por favor, seleccione los productos que desea comprar para su evento.</string>
+
+    <string name="tvSanValentin">San Valentin</string>
+    <string name="cbChocolates">Chocolates $3000</string>
+    <string name="cbDesayuno">Desayuno especial $10000</string>
+    <string name="cbPeluche">Peluche $5000</string>
+
+    <string name="tvHBD">Cumpleaños</string>
+    <string name="cbDulces">Caja de dulces $5000</string>
+    <string name="cbAccesorios">Accesorios $2000</string>
+    <string name="cbArreglos">Deco. para fiestas $10000</string>
+    <string name="btnRegistrarProductos">Realizar Compra</string>
+
+    <string name="tvExitoFactura">¡Su compra ha sido exitosa!</string>
+    <string name="tvAvisoFactura">Su compra será enviada.</string>
+    <string name="btnTerminar2">Terminar</string>
+
+    //TEST
+    //**Preguntas**
+    <string name="tvTituloTest">GoodOmens Test</string>
+    <string name="tvInfoText">Responde estas preguntas y te diré si compartes vibras con Crowley o Aziraphale</string>
+    <string name="tvPregunta1">¿Que tipo de colores prefieres?</string>
+    <string name="rgPregunta1">pregunta1</string>
+    <string name="rbAPregunta1">Colores claros</string>
+    <string name="rbBPregunta1">Colores oscuros</string>
+    <string name="tvPregunta2">Si estuvieras por ir a un evento importante, ¿Que tipo de ropa usarías?</string>
+    <string name="rgPregunta2">pregunta2</string>
+    <string name="rbAPregunta2">Traje, la formalidad es lo más importante</string>
+    <string name="rbBPregunta2">Ropa de cuero o informal, la corbata no es lo mio</string>
+    <string name="tvPregunta3">¿Cual de estos sabores de helado prefieres?</string>
+    <string name="rgPregunta3">pregunta3</string>
+    <string name="rbAPregunta3">Vainilla con chispas</string>
+    <string name="rbBPregunta3">Fresa</string>
+    <string name="tvPregunta4">¿Te consideras una persona confiable?</string>
+    <string name="rgPregunta4">pregunta4</string>
+    <string name="rbAPregunta4">No mucho</string>
+    <string name="rbBPregunta4">Claro que si</string>
+    <string name="tvPregunta5">Si tuvieras que escoger entre estas bebidas ¿cual escogerías?</string>
+    <string name="rgPregunta5">pregunta5</string>
+    <string name="rbAPregunta5">Té</string>
+    <string name="rbBPregunta5">Vino, del rojo.</string>
+    <string name="tvPregunta6">Te consideras una persona..</string>
+    <string name="rgPregunta6">pregunta6</string>
+    <string name="rbAPregunta6">Sensible pero sensata</string>
+    <string name="rbBPregunta6">Ruda pero gentil</string>
+
+    <string name="btnResponder">Responder</string>
+
+    //**Aziraphale**
+    <string name="tvRATitulo">¡Feliciades!</string>
+    <string name="tvRATitulo2">Compartes vibras con Aziraphale.</string>
+    <string name="tvRAText">Eres una persona a la antigua, prefieres tomar té, leer libros y usar corbata. Siempre piensas antes de actuar y en tu grupo de amigos te conviertes en la voz de la razón. Eso sí, que nunca te hagan enojar, porque si lo hacen eres capaz de dejar a un lado tu aura de angel y convertirte en enemigo de todo él mundo.</string>
+    <string name="btnVolverTest">Terminar</string>
+
+    //**Crowley
+    <string name="tvRCTitulo">¡Feliciades!</string>
+    <string name="tvRCTitulo2">Compartes vibras con Crowley.</string>
+    <string name="tvRCText">Eres una persona ruda, prefieres el vino tomar vino y vestir de cuero. Nunca piensas demasiado antes de hacer las cosas, solo confias en que todo saldrá bien. Eres listo y audaz, no te importa lo que digan los demás, pero aún así eres confiable y nunca dejarías a un amigo solo cuando más te necesita.</string>
+
+
+    //**ResultadoTest**
+    <string name="tvFelicitacionTest">¡En hora buena!</string>
+    <string name="btnTerminar3">Terminar</string>
+
+    //CalcularIMC
+    //**DatosIMC**
+    <string name="tvTituloIMC">Bienvenido al calulador de IMC</string>
+    <string name="tvIMCText">Ingrese sus datos en el sistema que desea utilizar</string>
+
+    <string name="tvSistemaIngles">Sistema Ingles</string>
+    <string name="tvEstatura1">Estatura</string>
+    <string name="etEstatura1">66.926</string>
+    <string name="tvEstaturaDesc1">En pulgadas</string>
+    <string name="tvPeso1">Peso</string>
+    <string name="etPeso1">20L</string>
+    <string name="tvPesoDesc1">En libras</string>
+
+    <string name="tvSistemaMetrico">Sistema métrico</string>
+    <string name="tvEstatura2">Estatura</string>
+    <string name="etEstatura2">1.70m</string>
+    <string name="tvEstaturaDesc2">En centimetros</string>
+    <string name="tvPeso2">Peso</string>
+    <string name="etPeso2">30Kg</string>
+    <string name="tvPesoDesc2">En kilogramos</string>
+
+    <string name="btnCalcularIMC">Calcular</string>
+
+
+
+</resources>
